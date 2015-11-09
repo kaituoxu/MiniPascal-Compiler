@@ -26,3 +26,7 @@ start 项目名.sln
 本应在ast_yacc.y中，为了便于调试，把.y文件中的第三部分独立成一个.c文件
 * yacc.h  
 与yacc.c相关的头文件，包括结构定义、宏定义
+* auxiliary.c  
+语法子程序会用到的一些辅助函数
+* auxiliary.h  
+auxiliary.c的头文件
