@@ -1,5 +1,5 @@
 # MiniPascal_compiler
-The compiler of MiniPascal.
+The compiler of MiniPascal, which produce symbol table and quaterlist.
 
 ## Use it in VS2015:
 ### Configuration
