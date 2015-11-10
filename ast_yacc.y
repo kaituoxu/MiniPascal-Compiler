@@ -153,7 +153,7 @@ VarList:	VarList','Variable
 	|	Variable
 		{
 		$$ = $1;
-		VarList[$1].addr = -1;
+		VarList[$1].addr = 0;
 		}
 	;
 StateList:	S_L Statement
